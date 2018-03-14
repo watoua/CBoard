@@ -31,9 +31,9 @@ import java.util.*;
 import java.util.concurrent.*;
 
 /**
- * Created by yfyuan on 2016/8/17.
+ * Created by yfyuan on 2016/8/17. test
  */
-@ProviderName(name = "jdbc")
+@ProviderName(name = "jdbc") 
 public class JdbcDataProvider extends DataProvider implements Aggregatable, Initializing {
 
     private static final Logger LOG = LoggerFactory.getLogger(JdbcDataProvider.class);
