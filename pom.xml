@@ -17,6 +17,7 @@
         <jdk.version>1.8</jdk.version>
         <presto.version>0.161</presto.version>
         <h2.version>1.4.196</h2.version>
+        <teiid.version>9.0.6</teiid.version>
     </properties>
 
     <repositories>
@@ -27,6 +28,27 @@
     </repositories>
 
     <dependencies>
+    	
+    	<!-- <dependency>
+            <groupId>org.teiid</groupId>
+		    <artifactId>teiid-client-feature-pack</artifactId>
+		    <version>10.1.1</version>
+		    <type>pom</type>
+        </dependency> -->
+        
+        <dependency>
+		    <groupId>org.jboss.teiid</groupId>
+		    <artifactId>teiid-common-core</artifactId>
+		    <version>9.0.6</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.teiid</groupId>
+		    <artifactId>teiid-client</artifactId>
+		    <version>9.0.6</version>
+		</dependency>
+		
+    
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
